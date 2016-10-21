@@ -1,0 +1,9 @@
+<h1>my blog with django</h1>
+
+{% for post in posts %}
+    {{ post.title }} <br>
+    {{ post.text }} <br>
+    {{ post.created }} <br>
+    {{ post.category }}
+    <hr>
+{% endfor %}
