@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "authors": [
+    "Antonio Jiménez <ajimenez.bf@gmail.com>"
+  ],
+  "description": "blog app",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
+    "font-awesome": "^4.6.3"
+  }
+}
