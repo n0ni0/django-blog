@@ -1,0 +1,17 @@
+- model: app.category
+  pk: 1
+  fields:
+    title: 'php'
+    slug: 'php'
+
+- model: app.category
+  pk: 2
+  fields:
+    title: 'Python'
+    slug: 'python'
+
+- model: app.category
+  pk: 3
+  fields:
+    title: 'Django'
+    slug: 'django'
