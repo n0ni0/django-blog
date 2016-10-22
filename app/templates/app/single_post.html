@@ -1,0 +1,17 @@
+{% extends 'app/base.html' %}
+
+{% block body %}
+    <div class="single-post container">
+        <h1>{{ post.title}}</h1>
+        <div class="post-created">
+             {{ post.created }}
+        </div>
+        <div class="post-category">
+            <a href="#"><button class="btn btn-xs btn-danger">{{ post.category }}</button></a>
+        </div>
+        <div class="post-text">
+            {{ post.text }}
+        </div>
+    </div>
+{% endblock %}
+

@@ -4,6 +4,10 @@
     color: rgba(105, 105, 105, 0.45);
 }
 
+.post-category {
+    margin: 7px;
+}
+
 a, a:hover, a:active, a:visited{
     color: #333333;
     text-decoration: none !important;
@@ -12,4 +16,8 @@ a, a:hover, a:active, a:visited{
 .jumbotron {
     margin-top: 20px;
     text-align: center;
+}
+
+.single-post {
+    margin-top: 50px;
 }
