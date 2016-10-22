@@ -1,0 +1,15 @@
+.post-created {
+    margin-top: 7px;
+    font-style: italic;
+    color: rgba(105, 105, 105, 0.45);
+}
+
+a, a:hover, a:active, a:visited{
+    color: #333333;
+    text-decoration: none !important;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    text-align: center;
+}
