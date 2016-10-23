@@ -1,0 +1,28 @@
+- model: app.post
+  pk: 1
+  fields:
+    title: 'Hello world'
+    slug: 'hello-world'
+    text: 'This is my first post'
+    created: '2016-10-21 15:30:22'
+    category_id: 1
+
+- model: app.post
+  pk: 2
+  fields:
+    title: 'Start with Python'
+    slug: 'start-with-python'
+    text: 'How to start with python'
+    created: '2016-10-21 21:44:00'
+    category_id: 2
+
+- model: app.post
+  pk: 3
+  fields:
+    title: 'Start with django'
+    slug: 'start-with-django'
+    text: 'Django is a high-level Python Web framework that encourages rapid development and clean,
+           pragmatic design. Built by experienced developers, it takes care of much of the hassle of Web development,
+           so you can focus on writing your app without needing to reinvent the wheel. It’s free and open source.'
+    created: '2016-10-21 22:30:22'
+    category_id: 3
