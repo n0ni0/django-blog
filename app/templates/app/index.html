@@ -10,17 +10,6 @@
             </a>
             </p>
         </div>
-
-        <div class="container content">
-            {% for post in posts %}
-            <h2><a class="post-title" href="{% url 'single_post' slug=post.slug %}">{{ post.title }}</a></h2>
-            {{ post.text|truncatechars:250 }} <br>
-            <div class="post-created">
-                {{ post.created }} <br>
-            </div>
-            <a href="#"><button class="btn btn-xs btn-danger">{{ post.category }}</button></a>
-            <hr>
-            {% endfor %}
-        </div>
+        {% include "app/list_post.html" %}
     </div>
 {% endblock %}

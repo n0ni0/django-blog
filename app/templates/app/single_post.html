@@ -7,7 +7,9 @@
              {{ post.created }}
         </div>
         <div class="post-category">
-            <a href="#"><button class="btn btn-xs btn-danger">{{ post.category }}</button></a>
+            <a href="{% url 'category' category=post.category.slug %}">
+            <button class="btn btn-xs btn-danger">{{ post.category }}</button>
+            </a>
         </div>
         <div class="post-text">
             {{ post.text }}

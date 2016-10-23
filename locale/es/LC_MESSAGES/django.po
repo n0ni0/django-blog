@@ -30,3 +30,6 @@ msgstr "Blog basado en django"
 msgid "check-github"
 msgstr "Comprueba el código en "
 
+msgid "categories-title"
+msgstr "Posts sobre "
+
