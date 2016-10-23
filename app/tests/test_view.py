@@ -8,9 +8,9 @@ class ViewTest(TestCase):
         self.assertEquals(response.status_code, 200)
 
     def test_load_single_post_view(self):
-        response = self.client.get('/hello-world')
+        response = self.client.get('/hello-world/post/')
         self.assertEquals(response.status_code, 200)
 
     def test_load_posts_with_same_category(self):
-        response = self.client.get('/django')
+        response = self.client.get('/django/category/')
         self.assertContains(response, '<h1>Posts sobre django</h1>')
